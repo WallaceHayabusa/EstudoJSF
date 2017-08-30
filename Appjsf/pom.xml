@@ -9,8 +9,7 @@
 	<url>http://maven.apache.org</url>
 	
   <dependencies>
-	
-	
+		
 	<!-- JSF -->
 	<dependency>
 		<groupId>com.sun.faces</groupId>
