@@ -18,7 +18,7 @@ public class UsuarioRepository implements Serializable {
 		try {
  
 			//QUERY QUE VAI SER EXECUTADA (UsuarioEntity.findUser) 	
-			Query query = Uteis.JpaEntityManager().createNamedQuery("UsuarioEntity.findUser");
+			Query query = Uteis.JpaEntityManager().createNamedQuery("findUser");
  
 			//PARÂMETROS DA QUERY
 			query.setParameter("usuario", usuarioModel.getUsuario());
@@ -28,7 +28,7 @@ public class UsuarioRepository implements Serializable {
 			return (UsuarioEntity)query.getSingleResult();
  
 		} catch (Exception e) {
- 
+			e.getMessage();
 			return null;
 		}
  
