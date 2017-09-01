@@ -13,7 +13,7 @@ public class UsuarioRepository implements Serializable {
  
 	private static final long serialVersionUID = 1L;
  
-	public UsuarioEntity ValidaUsuario(UsuarioModel usuarioModel){
+	public UsuarioEntity validaUsuario(UsuarioModel usuarioModel){
  
 		try {
  

@@ -10,7 +10,6 @@ html, body {
 }
 
 #content {
- 
    min-height:93%;
    position:relative;
 }
@@ -20,7 +19,6 @@ html, body {
 }
 
 #body {
- 
    padding:10px;
    padding-bottom:60px;
 }
