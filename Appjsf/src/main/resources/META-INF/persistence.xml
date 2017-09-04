@@ -9,6 +9,7 @@
         </description>
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
 <!--         <class>entity.UsuarioEntity</class> -->
+<!-- 		 <class>entity.PessoaEntity</class> -->
  
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
